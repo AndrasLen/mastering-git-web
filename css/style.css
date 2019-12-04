@@ -1,0 +1,154 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: #ccc url(images/bluedot-bg.png) no-repeat top left;
+   background-size: 80% auto;
+	color: #666;
+	font: normal normal 12pt/1.4 'Century Gothic','Helvetica Neue',Verdana,Arial,Helvetica;
+}
+
+.content
+{
+   width: 100%;
+	max-width: 800px;
+   margin: 0 auto 0 auto;
+}
+
+.header
+{
+	margin: 8px 8px 8px 8px;
+	padding: 50px 0 16px 71px;
+	background: transparent url(../images/callux.png) no-repeat top left;
+   background-size: 110px auto;
+}
+
+.header h1
+{
+	color: #444;
+	font: normal normal 34pt Neuropolitical,Century Gothic,Verdana,Arial,Helvetica;
+	letter-spacing: -1px;
+	text-shadow: rgba(64,64,64,0.5) 2px 2px 4px;
+}
+.header h1 .suffix
+{
+	color: #666;
+}
+
+.column-wrapper
+{
+   text-align: center;
+   margin: 0 auto 0 auto;
+}
+
+.column
+{
+   display: inline-block;
+   width: 260px;
+   vertical-align: top;
+   text-align: left;
+}
+
+.section
+{
+	background: rgba(250,250,250,0.6) url(images/left.png) repeat-y top left;
+	background-position: -80px 0;
+	margin: 0 4px 8px 0;
+	padding: 8px 4px 6px 0;
+   border-radius: 5px;
+}
+
+.section h4
+{
+	margin: 4px 0 4px 8px;
+	padding: 4px 0 4px 25px;
+	color: #666;
+   font-size: 1.4em;
+   line-height: 0.8;
+	letter-spacing: -0.02em;
+	text-shadow: #aaaaaa 0px 1px 4px;
+}
+#column1 .section h4
+{
+	background: transparent url(images/dotred.png) no-repeat;
+   background-size: 16px 16px;
+	background-position: 6px 40%;
+}
+#column2 .section h4
+{
+	background: transparent url(images/dotgreen.png) no-repeat;
+   background-size: 16px 16px;
+	background-position: 6px 40%;
+}
+#column3 .section h4
+{
+	background: transparent url(images/dotblue.png) no-repeat;
+   background-size: 16px 16px;
+	background-position: 6px 40%;
+}
+
+.footer
+{
+   clear: both;
+   margin: 16px auto 16px auto;
+   text-align: center;
+   font-size: 0.9em;
+   font-style: italic;
+   color: #888;
+}
+
+#column1 #CalluxNet h4
+{
+	margin: 0 0 0 8px;
+	padding: 8px 0 4px 28px;
+	color: #444;
+	background: transparent url(../images/callux.png) no-repeat;
+   background-size: 24px 24px;
+	background-position: 2px 2px;
+	font: normal normal 20pt/0.8  Neuropolitical,Century Gothic,Verdana,Arial,Helvetica;
+}
+#CalluxNet h4 .suffix
+{
+	color: #555;
+}
+
+#column3 #SportsCars h4
+{
+	background: transparent url(images/porsche.png) no-repeat;
+   background-size: 16px 20px;
+	background-position: 6px 70%;
+}
+
+.section ul
+{
+	list-style: none;
+	margin: 0 0 0 8px;
+	padding: 0 0 4px 0;
+}
+
+.section ul ul
+{
+	list-style: none;
+	margin: 0 0 0px 8px;
+}
+
+.section a
+{
+	color:#666;
+	text-decoration: none;
+	padding: 1px 6px 1px 6px;
+   border-radius: 5px;
+}
+.section a:active, div.section a:hover
+{
+	background: rgba(0,130,230,0.15);
+	text-decoration: none;
+}
+.section a:visited
+{
+	color:#555;
+}
